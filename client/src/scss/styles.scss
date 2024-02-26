@@ -1,0 +1,23 @@
+@import 'bootstrap/scss/bootstrap';
+/* CSS */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px); /* Start the element off-screen */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Slide the element back into view */
+  }
+}
+
+.slide-in {
+  opacity: 0;
+  animation: slideIn 0.5s ease forwards; /* Apply the animation */
+}
+
+.max-width-container {
+  max-width: 1200px; /* Adjust the value to your desired maximum width */
+  margin-left: auto;
+  margin-right: auto;
+}
