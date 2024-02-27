@@ -4,7 +4,7 @@ I created a front end for my website this was to demonstrate my abilities in cre
 
 I wrote this for my own personal use but also as a demonstration of react to gain a better understanding of the complexity as well as how react actually works and to make better decisions in the future on what kind of front end I would like to use.
 
-I learn a lot from how to use routs, hooks and components.
+I learn a lot on how to use routs, hooks and components.
 
 [Software Demo Video](https://youtu.be/zKhJ4KblIgk)
 
