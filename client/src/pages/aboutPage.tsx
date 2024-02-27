@@ -2,6 +2,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import Header from '../componnents/header';
 import logo from '../assets/image/logo.png';
 import ContactForm from '../componnents/contactform';
+import Footer from '../componnents/footer';
 
 function AboutPage() {
   return (
@@ -80,9 +81,11 @@ function AboutPage() {
             </Col>
           </Row>
           <ContactForm />
+          
         </Container>
+        
       </div>
-      <body className="bg-secondary min-vh-100 p-3 align-items-center start-middel"></body>
+      <Footer/>
     </>
   );
 }

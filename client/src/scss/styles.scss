@@ -1,23 +1,42 @@
-@import 'bootstrap/scss/bootstrap';
-/* CSS */
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-50px); /* Start the element off-screen */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0); /* Slide the element back into view */
-  }
-}
+$custom-colors: (
+  "custom-color": rgb(120, 219, 74)
+);
 
-.slide-in {
-  opacity: 0;
-  animation: slideIn 0.5s ease forwards; /* Apply the animation */
-}
+// Import Bootstrap's functions and variables
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+// Merge custom colors into theme colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Now import the rest of Bootstrap
+@import 'bootstrap/scss/bootstrap';
 
 .max-width-container {
   max-width: 1200px; /* Adjust the value to your desired maximum width */
   margin-left: auto;
   margin-right: auto;
+}
+.message-box {
+  max-width: 600px; /* Maximum width for the message */
+  padding: 1em;
+  word-wrap: break-word; /* Prevents content from overflowing */
+  margin-bottom: 1em; /* Space between messages */
+}
+
+/* Aligns message to the left */
+.message-left {
+  margin-right: auto;
+}
+
+/* Aligns message to the right */
+.message-right {
+  margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .message-box {
+    max-width: 90%; /* Adjust width for smaller screens */
+  }
 }
