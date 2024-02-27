@@ -81,11 +81,9 @@ function AboutPage() {
             </Col>
           </Row>
           <ContactForm />
-          
         </Container>
-        
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

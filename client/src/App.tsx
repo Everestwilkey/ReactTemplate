@@ -8,6 +8,7 @@ import AboutPage from './pages/aboutPage';
 import ContactPage from './pages/contactPage';
 import Footer from './componnents/footer';
 import Home from './pages/homePage';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const App = () => {
   return (

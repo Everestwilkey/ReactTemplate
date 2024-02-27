@@ -4,13 +4,12 @@ import Header from '../componnents/header';
 import ContactForm from '../componnents/contactform';
 import Footer from '../componnents/footer';
 
-
 function Home() {
   return (
     <>
-      <Header/>
+      <Header />
       <div className="bg-secondary pt-4 pb-5">
-      <Container className="d-flex flex-column align-items-center rounded mb-3 p-3">
+        <Container className="d-flex flex-column align-items-center rounded mb-3 p-3">
           <Row>
             <Col xs={12} md={6} className="offset-md-3">
               {/* Message from the system or company */}
@@ -26,7 +25,10 @@ function Home() {
             </Col>
             <Col xs={12} md={6} className="offset-md-3">
               <div className="bg-primary text-white p-3 rounded message-box message-left">
-                <h3>We are a Digital Media Company that does everything from Websites to ads.</h3>
+                <h3>
+                  We are a Digital Media Company that does everything from
+                  Websites to ads.
+                </h3>
               </div>
             </Col>
           </Row>
@@ -34,7 +36,7 @@ function Home() {
 
         <ContactForm />
       </div>
-      
+
       <Footer />
     </>
   );
