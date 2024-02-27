@@ -1,3 +1,5 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import React from 'react';
 import './scss/styles.scss';
 import Header from './componnents/header';
@@ -10,7 +12,13 @@ import Home from './pages/homePage';
 const App = () => {
   return (
     <>
-      <AboutPage></AboutPage>
+      <BrowserRouter>
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="About" element={<AboutPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
