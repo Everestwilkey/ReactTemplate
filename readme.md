@@ -10,7 +10,6 @@ I learn a lot on how to use routs, hooks and components.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 I use Vs Code as my IDE and added some extensions such as Prettier ReactSnippets. I also used packages like Vite for creating the react app Bootstrap for easy CSS and React-Routs for routing to different components.
 
 I used React plus typescript to code all the components. I used typescript because I like the type safety and wanted to get use to the way it works for future project using typescript.
