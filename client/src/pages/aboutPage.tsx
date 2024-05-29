@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import Header from '../componnents/header';
-import logo from '../assets/image/logo.png';
+var logo = '../assets/image/logo.png';
 import ContactForm from '../componnents/contactform';
 import Footer from '../componnents/footer';
 

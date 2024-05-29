@@ -1,4 +1,4 @@
-import logo from '../assets/image/logo.png';
+var logo = '../assets/image/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { navitems } from '../utils/data';
 import '../scss/styles.scss';

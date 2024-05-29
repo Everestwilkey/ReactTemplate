@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from '../assets/image/logo.png'; // Importing logo
+var logo = '../assets/image/logo.png';
+
 import { navitems } from '../utils/data'; // Assuming you want to use the same nav items or modify as needed
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../scss/styles.scss'; // Ensure your styles.scss has footer styles if necessary

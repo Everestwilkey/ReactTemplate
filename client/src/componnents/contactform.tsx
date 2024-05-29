@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Button, Col, Container, Form, Row, Alert } from 'react-bootstrap';
 
 function ContactForm() {
@@ -7,7 +7,7 @@ function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     // Here you can handle the form submission, e.g., sending data to a server
     console.log({ email, inquiry });
