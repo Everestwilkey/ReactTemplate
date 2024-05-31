@@ -1,9 +1,9 @@
-import logo from '../assets/image/logo.png';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { navitems } from '../utils/data';
 import '../scss/styles.scss';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-
+const logo = '../assets/image/logo.png';
 function Navigation() {
   return (
     <Navbar bg="dark" expand="lg" variant="dark">
