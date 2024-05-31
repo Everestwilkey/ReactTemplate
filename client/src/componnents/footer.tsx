@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 
-
- // Importing logo
-=======
-var logo = '../assets/image/logo.png';
-
->>>>>>> 53f21b011418f432ea9bcd14d72959308ed440b5
 import { navitems } from '../utils/data'; // Assuming you want to use the same nav items or modify as needed
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../scss/styles.scss'; // Ensure your styles.scss has footer styles if necessary
