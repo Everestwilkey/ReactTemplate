@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
- // Ensure this matches your repository name
+  base: '/ReactTemplate/', // Ensure this matches your repository name
 });
