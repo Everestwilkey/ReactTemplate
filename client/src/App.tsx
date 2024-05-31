@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/ReactTemplate/'>
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="contact" element={<ContactPage />} />
