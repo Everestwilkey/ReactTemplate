@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import  { useState, useEffect } from 'react';
+=======
+import { useState, useEffect } from 'react';
+>>>>>>> 53f21b011418f432ea9bcd14d72959308ed440b5
 import { Button, Col, Container, Form, Row, Alert } from 'react-bootstrap';
 
 function ContactForm() {

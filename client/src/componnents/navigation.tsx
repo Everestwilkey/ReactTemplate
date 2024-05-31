@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+var logo = '../assets/image/logo.png';
+>>>>>>> 53f21b011418f432ea9bcd14d72959308ed440b5
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { navitems } from '../utils/data';
 import '../scss/styles.scss';
